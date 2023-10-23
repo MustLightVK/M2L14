@@ -31,17 +31,6 @@ li{
     margin: 0;
     padding: 0;
 }
-h3{
-    padding: 11px 0;
-    padding-left: 25px;
-    
-
-    font-size: 20px;
-    font-weight: 400;
-
-    color: #000;
-    background: #FBDCC7;
-}
 p{
     margin: 0;
     padding: 0;
@@ -247,7 +236,7 @@ span{
     background: #C3D2CB;
 }
 .tab_text{
-    padding-left: 34px;
+    padding: 0 34px;
     
     font-weight: 400;
     font-size: 15px;
@@ -260,10 +249,25 @@ span{
 
 
 
+.accordion{
+    --bs-accordion-border-width: none;
+}
+.accordion-item{
+    max-width: 730px;
+}
+.accordion-button-wrapper,
+.accordion-button:not(.collapsed){
+    padding: 11px 25px;
+    border: none;
 
-.text-wrapper>p{
-    padding: 21px 0;
-    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #000;
+    background: #FBDCC7;
+}
+.accordion-body-wrapper{
+    padding: 21px 25px;
 
     font-size: 14px;
     font-weight: 300;
@@ -271,10 +275,20 @@ span{
     color: #000;
     background: #fff;   
 }
-.title-border-radius>h3{
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+.accordion-item:first-of-type .accordion-button {
     border-radius: 20px 20px 0 0;
 }
-.p-border-radius>p{
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 0 0 20px 20px;
+}
+.accordion-item:first-of-type {
+    border-radius: 20px 20px 0 0;
+}
+.accordion-item:last-of-type {
     border-radius: 0 0 20px 20px;
 }
 

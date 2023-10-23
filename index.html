@@ -128,18 +128,44 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-xl-8">
-                    <div class="text-wrapper title-border-radius">
-                        <h3>Accordion item 1 - HTML</h3>
-                        <p>HTML is the foundation of frontend development. It provides the structure and content of web <br> pages, allowing developers to define elements such as headings, paragraphs, images, links, and <br> more. With HTML5, the latest version of the language, exciting new features like semantic <br> elements and multimedia support have been introduced, making it even more powerful for <br> creating modern web applications.</p>
-                    </div>
-                    <div class="text-wrapper">
-                        <h3>Accordion item 2 - CSS</h3>
-                        <p>CSS is responsible for the presentation and styling of web pages. It enables developers to control <br> the layout, colors, fonts, and overall appearance of the content defined in HTML. With CSS3, <br> advanced features like animations, transitions, and responsive design can be implemented, <br> ensuring a visually appealing and interactive user experience across various devices.</p>
-                    </div>
-                    <div class="text-wrapper p-border-radius">
-                        <h3>Accordion item 3 - JavaScript</h3>
-                        <p>JavaScript is a versatile programming language that brings interactivity and dynamic functionality <br> to frontend development. With JavaScript, developers can add event handling, perform DOM <br> manipulation, and create complex interactions, making web pages more engaging and user- <br> friendly. Additionally, frameworks like React, Angular, and Vue.js have gained popularity, simplifying <br> the development of interactive and scalable frontend applications.</p>
-                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button accordion-button-wrapper" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Accordion item 1 - HTML 
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body accordion-body-wrapper">
+                                HTML is the foundation of frontend development. It provides the structure and content of web <br> pages, allowing developers to define elements such as headings, paragraphs, images, links, and <br> more. With HTML5, the latest version of the language, exciting new features like semantic <br> elements and multimedia support have been introduced, making it even more powerful for <br> creating modern web applications.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed accordion-button-wrapper" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Accordion item 2 - CSS
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body accordion-body-wrapper">
+                                CSS is responsible for the presentation and styling of web pages. It enables developers to control <br> the layout, colors, fonts, and overall appearance of the content defined in HTML. With CSS3, <br> advanced features like animations, transitions, and responsive design can be implemented, <br> ensuring a visually appealing and interactive user experience across various devices.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed accordion-button-wrapper" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Accordion item 3 - JavaScript
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body accordion-body-wrapper">
+                                JavaScript is a versatile programming language that brings interactivity and dynamic functionality <br> to frontend development. With JavaScript, developers can add event handling, perform DOM <br> manipulation, and create complex interactions, making web pages more engaging and user- <br> friendly. Additionally, frameworks like React, Angular, and Vue.js have gained popularity, simplifying <br> the development of interactive and scalable frontend applications.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
