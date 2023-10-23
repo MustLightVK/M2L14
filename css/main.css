@@ -1,0 +1,287 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Prompt", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+    color: #000;
+    background: #fff6ef;
+
+}
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 1110px;
+    margin: 0px auto;
+}
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    padding: 11px 0;
+    padding-left: 25px;
+    
+
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #000;
+    background: #FBDCC7;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+
+    color: #000;
+}
+section:first-child{
+    margin-top: 70px;
+}
+section{
+    margin-top: 120px;
+}
+
+
+
+
+
+.menu{
+    padding: 14px 0;
+}
+.menu__logo{
+    background-image: url("../img/logo.svg");
+    width: 32px;
+    height: 32px;
+    display: block;
+
+}
+.menu__button{
+    width: 100%;
+    height: 40px;
+    border: none;
+
+    background: #6A9B96;
+}
+.menu__list{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+.menu__item{
+    padding: 3px 0;
+}
+
+
+
+
+
+
+.slide{
+    height: 600px;
+}
+.slider-wrapper{
+    height: 600px;
+}
+.carousel-indicators{
+    top: 621px;
+    gap: 16px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 13px;
+    height: 16px;
+    border: none;
+
+    background: #6A9B96;
+}
+.carousel_btn__imgPrev{
+    background-image: url("../img/prev.svg");
+    width: 20px;
+    height: 40px;
+}
+.carousel_btn__imgNext{
+    background-image: url("../img/next.svg");
+    width: 20px;
+    height: 40px;
+}
+
+
+
+
+
+.section-title{
+    margin-bottom: 75px;
+
+    font-size: 30px;
+    font-weight: 300;
+}
+.block_btn>button{
+    height: 100px; 
+    width: 100%;   
+    padding: 29px 35px;
+    border: none;
+    border-radius: 20px;
+
+    font-size: 30px;
+    font-weight: 400;
+
+    color: #000;
+    background: rgb(240, 158, 104, 0.3);
+}
+
+
+
+
+.modal {
+    --bs-modal-width: 630px;  /* Для центрирования окна в целом */
+}
+.modal-wrapper{
+    width: 630px;
+    height: 350px;
+    border-radius: 20px;
+
+    font-size: 30px;
+    font-weight: 400;
+    color: #424242;
+
+}
+.modal-header{
+    border-bottom: none;
+    padding: 0;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.btn__exit{
+    background-image: url("../img/close.svg");
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 30px;
+    left: 568px;
+    right: 30px;
+    bottom: 288px;
+}
+h1::first-line {  /*  Сделано так, как как иначе что-то другое переопередяет и невозможно выставить размер */
+    font-size: 30px;
+}
+.modal-body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal-body>p{
+    height: 100%;
+    padding-top: 63px;
+
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+.tab-wrapper{
+    height: 248px;
+}
+span{
+    font-weight: 600;
+}
+.nav_taps_btn{
+    width: 139px;
+    height: 50px;
+
+    font-weight: 400;
+    border: none;
+
+    color: #000;
+}
+.nav_taps_btn:hover{
+    color: black;
+}
+.nav-tabs .nav-link.active{
+    background-color: #6A9B96;
+}
+.nav-tabs {
+    --bs-nav-tabs-border-width: none;
+}
+.nav-tabs .nav-link {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    font-size: 15px;
+    font-weight: 400;
+}
+.tab-content{
+    height: 198px;
+    border-radius: 0 0 20px 20px;
+
+    background: #C3D2CB;
+}
+.tab_text{
+    padding-left: 34px;
+    
+    font-weight: 400;
+    font-size: 15px;
+}
+.tab-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.text-wrapper>p{
+    padding: 21px 0;
+    padding-left: 25px;
+
+    font-size: 14px;
+    font-weight: 300;
+    
+    color: #000;
+    background: #fff;   
+}
+.title-border-radius>h3{
+    border-radius: 20px 20px 0 0;
+}
+.p-border-radius>p{
+    border-radius: 0 0 20px 20px;
+}
+
+
+
+
+footer{
+    margin-top: 120px;
+    padding: 25px 0;
+}
