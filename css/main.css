@@ -214,9 +214,6 @@ span{
 
     color: #000;
 }
-.col-md-7>.tab-wrapper>nav>.nav-tabs>.nav_taps_btn{
-    width: 132px;
-}
 .nav_taps_btn:hover{
     color: black;
 }
