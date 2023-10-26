@@ -89,6 +89,9 @@ section{
 .slide{
     height: 600px;
 }
+.slide-img{
+    border-radius: 20px;
+}
 .slider-wrapper{
     height: 600px;
 }
@@ -118,30 +121,17 @@ section{
 
 
 
+
 .section-title{
     margin-bottom: 75px;
 
     font-size: 30px;
     font-weight: 300;
 }
-.block_btn>button{
-    height: 100px; 
-    width: 100%;   
-    padding: 29px 35px;
-    border: none;
-    border-radius: 20px;
-
-    font-size: 30px;
-    font-weight: 400;
-
-    color: #000;
-    background: rgb(240, 158, 104, 0.3);
-}
-
-
 
 
 .modal {
+    top: 30%;
     --bs-modal-width: 630px;  /* Для центрирования окна в целом */
 }
 .modal-wrapper{
@@ -197,6 +187,17 @@ h1::first-line {  /*  Сделано так, как как иначе что-т�
 
 
 
+.btn_modal{ 
+    padding: 29px 35px;
+    border: none;
+    border-radius: 20px;
+
+    font-size: 30px;
+    font-weight: 400;
+
+    color: #000;
+    background: rgb(240, 158, 104, 0.3);
+}
 
 .tab-wrapper{
     height: 248px;
@@ -205,8 +206,7 @@ span{
     font-weight: 600;
 }
 .nav_taps_btn{
-    width: 139px;
-    height: 50px;
+    padding: 14px 34px;
 
     font-weight: 400;
     border: none;
