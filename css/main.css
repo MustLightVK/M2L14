@@ -206,12 +206,16 @@ span{
     font-weight: 600;
 }
 .nav_taps_btn{
-    padding: 14px 34px;
+    padding: 14px 0;
+    width: 139px;
 
     font-weight: 400;
     border: none;
 
     color: #000;
+}
+.col-md-7>.tab-wrapper>nav>.nav-tabs>.nav_taps_btn{
+    width: 132px;
 }
 .nav_taps_btn:hover{
     color: black;
