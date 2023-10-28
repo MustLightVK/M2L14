@@ -59,6 +59,7 @@ section{
 }
 .menu__logo{
     background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
     width: 32px;
     height: 32px;
     display: block;
@@ -299,4 +300,75 @@ span{
 footer{
     margin-top: 120px;
     padding: 25px 0;
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width:991px){
+    a{
+        font-size: 16px;
+    }
+
+
+    
+    .slide{
+        height: 400px;
+    }
+    .slider-wrapper{
+        height: 400px;
+    }
+    .carousel-indicators{
+        top: 421px;
+        gap: 16px;
+    }
+
+
+    .modal-container>.align-items-center {
+        align-items: flex-start !important;
+      }
+    .btn_modal{ 
+        font-size: 18px;
+    }
+    .nav_taps_btn{
+        width: 132px;
+    }
+
+
+    .row-accordion>.col-md-8 {
+        width: 100%;
+    }
+
+
+    .footer__text{
+        font-size: 16px;
+    }
+
+}
+@media (min-width: 992px) and (max-width:1199px){
+    a{
+        font-size: 15px;
+    }
+    
+    .slide{
+        height: 500px;
+    }
+    .slider-wrapper{
+        height: 500px;
+    }
+    .carousel-indicators{
+        top: 521px;
+        gap: 16px;
+    }
+
+
+    .btn_modal{ 
+        font-size: 27px;
+    }
+
+    .footer__text{
+        font-size: 15px;
+    }
 }
